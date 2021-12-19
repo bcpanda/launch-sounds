@@ -1,0 +1,28 @@
+/* TARGET BODY */
+
+body {
+    /* SETTING BG IMAGE */
+    background-image: url('../image/bg.jpg');
+    /* LIMITING BACKGROUND NOT TO REPEAT */
+    background-repeat: no-repeat;
+    /* FIXING THE IMAGE SO IT WOULD STAY IN THE SAME PLACE */
+    background-attachment: fixed;
+    /* COVERING THE IMAGE TO FIT TO SCREEN */
+    background-size: cover;
+    /* CHANGING FONT FAMILY */
+    font-family: sans-serif;
+}
+
+nav {
+    margin-top: 5%;
+    margin-left: 30%;
+    display: inline-block !important;
+}
+
+nav * {
+    display: inline;
+}
+
+section {
+    text-align: center;
+}
